@@ -1,0 +1,174 @@
+<html>
+<meta charset=utf-8>
+<header>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<title>
+	Apresentação CENTI
+	</title>
+</header>
+	<body>
+		<h1>
+		<img src="C:\Users\CENTI\Desktop\icone.png" alt="logo centi" class="iconCenti">
+		</h1>
+		<h2>
+		Apresentação CENTI
+		</h2>
+		<div class="row">
+				<div class="col">
+					<ul>
+					<li id=modulo>Módulos</li>
+					<li id=portal>Portal do Cidadão</li>
+					<li id=compras>Compras</li>
+					<li id=patri>Patrimônio</li>
+					<li id=contab>Contabilidade</li>
+					<li id=lici>licitação</li>
+					<li id=con_int>Controle interno</li>
+					<li id=rh>Recursos Humanos</li>
+					<li id=preg>Pregão</li>
+					<li id=frotas>Frotas</li>
+					<li id=arrec>Sistema Fazendário</li>
+					<li id=muito>Muito mais +</li>
+					</ul>
+				</div>
+				<div class="col">
+					<p id=apresentacao>
+					Texto de apresentação
+					</p>
+				</div>
+
+		</div>
+	</body>
+	<footer>
+	<a href="https://api.whatsapp.com/send?phone=556239223044" target="_blank"><img src="C:\Users\CENTI\Desktop\whats.png" alt="icone_whats" class="icon"><a>
+	<a href="https://www.instagram.com/centi.com.br/" target="_blank"><img src="C:\Users\CENTI\Desktop\insta.png" alt="icone_insta" class="icon"><a>
+	<a href="https://www.facebook.com/Centi.com.br/?locale=pt_BR" target="_blank"><img src="C:\Users\CENTI\Desktop\face.png" alt="icone_face" class="icon"><a>
+	<p1>
+	contatos e redes sociais
+	</p1>
+	</footer>
+</html>
+<style>
+	h1{
+	padding-top:30px}
+	.iconCenti{
+	display:block;
+	margin:auto;
+	}
+
+	h1{
+	text-align: middle;
+	background-color:#e9eef1;
+	height:80px
+	}
+
+	h2{
+	color:#5e5e5e;
+	font-family:Verdana;
+	font-size:200%;
+	text-align:center}
+
+	ul{
+	font-family:Verdana;
+	float: left;
+	width: 15%;
+	height: 250px;
+	padding-left:2%;
+	padding-top:2%;
+	background:#9fa2a4}
+
+	p{
+	float: right;
+	height: 500px;
+	background:#c5c8cc;
+	width:80%
+	}
+
+	footer{
+	color:#5e5e5e;
+	font-family:Verdana;
+	width:100%}
+
+	.icon{
+	width: 50px;
+	height:50px}
+</style>
+<script>
+src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"
+
+	let portal = document.querySelector("#portal");
+	let compras = document.querySelector("#compras");
+	let patri = document.querySelector("#patri");
+	let contab = document.querySelector("#contab");
+	let lici = document.querySelector("#lici");
+	let con_int = document.querySelector("#con_int");
+	let rh = document.querySelector("#rh");
+	let preg = document.querySelector("#preg");
+	let frotas = document.querySelector("#frotas");
+	let arrec = document.querySelector("#arrec");
+	let muito = document.querySelector("#muito");
+	let apresentacao = document.getElementById("apresentacao");
+
+
+	let funcao = function funcao() 
+	{
+		apresentacao.innerHTML = "<a href =https://www.centi.com.br/portal/ target=_blank>Portal</a>"
+	}
+	portal.addEventListener("click", funcao, false)
+	
+	let funcao1 = function funcao1() 
+	{
+		apresentacao.innerHTML = "<a href =https://www.centi.com.br/portal/produtos/compras/# target=_blank>Compras</a>"
+	}
+	compras.addEventListener("click", funcao1, false)
+
+	let funcao2 = function funcao2() 
+	{
+		apresentacao.innerHTML = "<a href =https://www.centi.com.br/portal/produtos/patrimonio/ target=_blank>Patrimônio</a>"
+	}
+	patri.addEventListener("click", funcao2, false)
+	
+	let funcao3 = function funcao3() 
+	{
+		apresentacao.innerHTML = "<a href =https://www.centi.com.br/portal/produtos/contabilidade/ target=_blank>Contabilidade</a>"
+	}
+	contab.addEventListener("click", funcao3, false)
+	
+	let funcao4 = function funcao4() 
+	{
+		apresentacao.innerHTML = "<a href =https://www.centi.com.br/portal/produtos/licitacao/ target=_blank>Licitação</a>"
+	}
+	lici.addEventListener("click", funcao4, false)
+	
+	let funcao5 = function funcao5() 
+	{
+		apresentacao.innerHTML = "<a href =https://www.centi.com.br/portal/produtos/controle-interno/ target=_blank>Controle Interno</a>"
+	}
+	
+	con_int.addEventListener("click", funcao5, false)
+	
+	let funcao6 = function funcao6() 
+	{
+		apresentacao.innerHTML = "<a href =https://www.centi.com.br/portal/produtos/rh/ target=_blank>Recursos Humanos</a>"
+	}
+	rh.addEventListener("click", funcao6, false)
+	
+	let funcao7 = function funcao7() 
+	{
+		apresentacao.innerHTML = "<a href =https://www.centi.com.br/portal/produtos/pregao/ target=_blank>Pregão</a>"
+	}
+	preg.addEventListener("click", funcao7, false)
+	
+	let funcao8 = function funcao8() 
+	{
+		apresentacao.innerHTML = "<a href =https://www.centi.com.br/portal/produtos/frotas/ target=_blank>Frotas</a>"
+	}
+	frotas.addEventListener("click", funcao8, false)
+	
+	let funcao9 = function funcao9() 
+	{
+		apresentacao.innerHTML = "<a href =https://www.centi.com.br/portal/produtos/sefaz/ target=_blank>Sistema Fazendário</a>"
+	}
+	arrec.addEventListener("click", funcao9, false)
+	
+</script>
